@@ -1,115 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>shopping cart</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>shopping cart</title>
 </head>
 <body>
-    <nav>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <section class="top-nav">
-        <div>
-          Hadi A P
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-          <li><a  href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </section>
-    </nav>
-
-    <main>
-      <section class="container content-section">
-          <h2 class="section-header">iPhone accessories</h2>
-          <div class="shop-items">
-              <div class="shop-item">
-                  <span class="shop-item-title">Apple MagSafe <br> Wireless Charger</span>
-                  <img class="shop-item-image" src="https://johnlewis.scene7.com/is/image/JohnLewis/239092003alt2?$rsp-pdp-port-320$">
-                  <div class="shop-item-details">
-                      <span class="shop-item-price">£29</span>
-                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                  </div>
-              </div>
-              <div class="shop-item">
-                  <span class="shop-item-title">Apple AirPods Pro with Magsafe</span>
-                  <img class="shop-item-image" src="https://imageio.forbes.com/specials-images/imageserve/5f8b7d1977b3017462dc735c/Apple--AirPods--AirPods-Pro--new-AirPods--MagSafe-AirPods--magnetic-AirPods--iPhone/960x0.jpg?format=jpg&width=960">
-                  <div class="shop-item-details">
-                      <span class="shop-item-price">£189</span>
-                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                  </div>
-              </div>
-              <div class="shop-item">
-                  <span class="shop-item-title">Ring Light with Extended <br> Tripod Stand</span>
-                  <img class="shop-item-image" src="https://m.media-amazon.com/images/I/61QgIeiBFzL.jpg">
-                  <div class="shop-item-details">
-                      <span class="shop-item-price">£20.89</span>
-                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                  </div>
-              </div>
-              <div class="shop-item">
-                <span class="shop-item-title">Anker Wireless Charger</span>
-                <img class="shop-item-image" src="https://ae01.alicdn.com/kf/H4dd7a6e50b194a2987db078ccaea28ceX/Anker-Wireless-Charging-Stand-PowerWave-2-in-1-Magnetic-Stand-Lite-with-5-ft-USB-C.jpg_Q90.jpg_.webp">
-                <div class="shop-item-details">
-                    <span class="shop-item-price">£18.99</span>
-                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                </div>
-             </div>
-             <div class="shop-item">
-              <span class="shop-item-title">Spigen iPhone case</span>
-              <img class="shop-item-image" src="https://www.mytrendyphone.co.uk/images/Spigen-Ultra-Hybrid-Case-for-iPhone-11-Crystal-Clear-8809671010309-14092019-01-p.jpg">
-              <div class="shop-item-details">
-                  <span class="shop-item-price">£12.99</span>
-                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-              </div>
-              </div>
-              <div class="shop-item">
-                <span class="shop-item-title">Beats Fit Pro <br> wireless earbuds</span>
-                <img class="shop-item-image" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2G3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663492000">
-                <div class="shop-item-details">
-                <span class="shop-item-price">£199</span>
+  <header>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./images/adver-1.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="./images/adver-2.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="./images/adver-3.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+  </header>
+  <main>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+      Logo Here
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="#">About</a></li>
+      <li><a href="#">work</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+  </section>
+  <section class="container content-section">
+    <h2 class="section-header">iPhone accessories</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Apple MagSafe <br> Wireless Charger</span>
+            <img class="shop-item-image" src="https://johnlewis.scene7.com/is/image/JohnLewis/239092003alt2?$rsp-pdp-port-320$">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£29</span>
                 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-              </div>
+            </div>
         </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Apple AirPods Pro with Magsafe</span>
+            <img class="shop-item-image" src="https://imageio.forbes.com/specials-images/imageserve/5f8b7d1977b3017462dc735c/Apple--AirPods--AirPods-Pro--new-AirPods--MagSafe-AirPods--magnetic-AirPods--iPhone/960x0.jpg?format=jpg&width=960">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£189</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Ring Light with Extended <br> Tripod Stand</span>
+            <img class="shop-item-image" src="https://m.media-amazon.com/images/I/61QgIeiBFzL.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">£20.89</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Anker Wireless Charger</span>
+          <img class="shop-item-image" src="https://ae01.alicdn.com/kf/H4dd7a6e50b194a2987db078ccaea28ceX/Anker-Wireless-Charging-Stand-PowerWave-2-in-1-Magnetic-Stand-Lite-with-5-ft-USB-C.jpg_Q90.jpg_.webp">
+          <div class="shop-item-details">
+              <span class="shop-item-price">£18.99</span>
+              <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
           </div>
-      </section>
-      <section class="container content-section">
-          <h2 id="cart" class="section-header">CART</h2>
-          <div class="cart-row">
-              <span class="cart-item cart-header cart-column">ITEM</span>
-              <span class="cart-price cart-header cart-column">PRICE</span>
-              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-          </div>
-          <div class="cart-items">
-          </div>
-          <div class="cart-total">
-              <strong class="cart-total-title">Total</strong>
-              <span class="cart-total-price">£0</span>
-          </div>
-          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-      </section>
-      <section class="container content-section">
-          <h2 id="cart" class="section-header">Customer reviews</h2>
-          <div class="comment-box">
-              <form action="#">
-                  <textarea name="comment" placeholder="Type your comment here..."></textarea>
-              </form>
-          </div>
-          <br>
-          <button class="btn btn-primary btn-purchase" type="submit">Submit</button>  
-      </section>  
-  </main>
-  <footer class="footer-box">
+       </div>
+       <div class="shop-item">
+        <span class="shop-item-title">Spigen iPhone case</span>
+        <img class="shop-item-image" src="https://www.mytrendyphone.co.uk/images/Spigen-Ultra-Hybrid-Case-for-iPhone-11-Crystal-Clear-8809671010309-14092019-01-p.jpg">
+        <div class="shop-item-details">
+            <span class="shop-item-price">£12.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Beats Fit Pro <br> wireless earbuds</span>
+          <img class="shop-item-image" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2G3_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1634663492000">
+          <div class="shop-item-details">
+          <span class="shop-item-price">£199</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+  </div>
+    </div>
+</section>
+<section class="container content-section">
+    <h2 id="cart" class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">£0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+<section class="container content-section">
+    <h2 id="cart" class="section-header">Customer reviews</h2>
+    <div class="comment-box">
+        <form action="#">
+            <textarea name="comment" placeholder="Type your comment here..."></textarea>
+        </form>
+    </div>
+    <br>
+    <button class="btn btn-primary btn-purchase" type="submit">Submit</button>  
+</section>  
+</main>
+<footer class="footer-box">
 <h1>&copy;	2022 Hadi A P</h1>
-  </footer>
-  
-  <script src="script.js"></script>
+</footer>
+  </main>
+  <script src="js/script.js"></script>
 </body>
 </html>
